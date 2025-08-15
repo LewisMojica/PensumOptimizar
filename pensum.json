@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "code": "MAT101",
+      "name": "Matemática I", 
+      "credits": 4,
+      "prerequisites": []
+    },
+    {
+      "code": "ING102",
+      "name": "Programación I",
+      "credits": 4, 
+      "prerequisites": ["MAT101"]
+    }
+  ]
+}

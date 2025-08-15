@@ -1,0 +1,10 @@
+{
+	"courses": [
+		{
+			"code": "ESP101",
+			"name": "ANALISIS DE TEXTOS DISCURSIVOS",
+			"credits": 3,
+			"prerequisites": []
+		}
+	]
+}

@@ -166,24 +166,14 @@ def remove_convalidated_courses(courses: List[Course], convalidated: Set[str]) -
 
 def main():
 	print("=== Pensum Scheduler Phase 1 ===\n") 
+	json_file = sys.argv[1] if len(sys.argv) > 1 else None
 	# Load pensum
 	try:
-		courses = load_pensum_from_json('pensum.json')
-		print(f"Loaded {len(courses)} courses from pensum.json")
+		courses = load_pensum_from_json(json_file)
+		print(f"Loaded {len(courses)} courses from {json_file}")
 	except FileNotFoundError:
-		print("pensum.json not found. Creating sample data...")
-		# Create sample data
-		sample_courses = [
-			Course("MAT101", "Matemática I", 4, []),
-			Course("ING102", "Programación I", 4, []),
-			Course("MAT201", "Matemática II", 4, ["MAT101"]),
-			Course("ING201", "Programación II", 4, ["ING102"]),
-			Course("ING205", "Base de Datos", 4, ["ING102", "MAT101"]),
-			Course("ING301", "Ingeniería de Software", 4, ["ING201", "ING205"])
-		]
-		courses = sample_courses
-		print(f"Using {len(courses)} sample courses")
-	
+		print(f"{json_file} not found.")
+		return 1	
 	# Get convalidated courses
 	convalidated_input = input("\nEnter convalidated course codes (comma separated, or Enter for none): ").strip()
 	convalidated = set()
