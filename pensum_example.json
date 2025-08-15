@@ -1,0 +1,376 @@
+{
+	"courses": [
+		{
+			"code": "ESP101",
+			"name": "ANALISIS DE TEXTOS DISCURSIVOS",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO100",
+			"name": "FUNDAMENTOS DE INFORMATICA Y ALGORITMOS",
+			"credits": 5,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO105",
+			"name": "FUNDAMENTOS DE SISTEMAS OPERATIVOS Y COMUNICACIONES",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "SOC011",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "SOC030",
+			"name": "",
+			"credits": 2,
+			"prerequisites": []
+		},
+		{
+			"code": "MAT127",
+			"name": "",
+			"credits": 5,
+			"prerequisites": []
+		},
+		{
+			"code": "INF250",
+			"name": "",
+			"credits": 2,
+			"prerequisites": []
+		},
+		{
+			"code": "SOC043",
+			"name": "",
+			"credits": 2,
+			"prerequisites": []
+		},
+		{
+			"code": "ESP106",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ESP101"]
+		},
+		{
+			"code": "ESP106",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ESP101"]
+		},
+		{
+			"code": "SOC200",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "SOC101",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "MAT131",
+			"name": "",
+			"credits": 5,
+			"prerequisites": ["MAT127"]
+		},
+		{
+			"code": "ISO200",
+			"name": "",
+			"credits": 5,
+			"prerequisites": ["ISO100"]
+		},
+		{
+			"code": "INF111",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO200"]
+		},
+		{
+			"code": "ISO300",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["INF250"]
+		},
+		{
+			"code": "ESP107",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ESP106"]
+		},
+		{
+			"code": "MAT132",
+			"name": "",
+			"credits": 5,
+			"prerequisites": ["MAT131"]
+		},
+		{
+			"code": "ING716",
+			"name": "",
+			"credits": 3 ,
+			"prerequisites": ["MAT131"]
+		},
+		{
+			"code": "ING717",
+			"name": "",
+			"credits": 1,
+			"prerequisites": ["MAT131"]
+		},
+		{
+			"code": "ISO310",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO200"]
+		},
+		{
+			"code": "INF164",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["INF111"]
+		},
+		{
+			"code": "ISO410",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO300"]
+		},
+		{
+			"code": "SOC013",
+			"name": "",
+			"credits": 2,
+			"prerequisites": []
+		},
+		{
+			"code": "SOC253",
+			"name": "",
+			"credits": 4,
+			"prerequisites": []
+		},
+		{
+			"code": "MAT151",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["MAT132"]
+		},
+		{
+			"code": "SOC031",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO500",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO300"]
+		},
+		{
+			"code": "INF165",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["INF164"]
+		},
+		{
+			"code": "ISO505",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO410"]
+		},
+		{
+			"code": "CON127",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["MAT127"]
+		},
+		{
+			"code": "ING718",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ING716"]
+		},
+		{
+			"code": "ING719",
+			"name": "",
+			"credits": 1,
+			"prerequisites": ["ING717"]
+		},
+		{
+			"code": "ISO515",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO310"]
+		},
+		{
+			"code": "ADM535",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["SOC101"]
+		},
+		{
+			"code": "ISO400",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO500"]
+		},
+		{
+			"code": "ISO600",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO400"]
+		},
+		{
+			"code": "MAT252",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["MAT132"]
+		},
+		{
+			"code": "ISO615",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["INF165"]
+		},
+		{
+			"code": "ISO625",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO515"]
+		},
+		{
+			"code": "ISO700",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO505"]
+		},
+		{
+			"code": "ISO705",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO600"]
+		},
+		{
+			"code": "ISO720",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO615"]
+		},
+		{
+			"code": "ISO735",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "E077",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO800",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO735"]
+		},
+		{
+			"code": "ISO725",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO720"]
+		},
+		{
+			"code": "ISO934",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO705"]
+		},
+		{
+			"code": "E078",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "IDI045",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO900",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO800"]
+		},
+		{
+			"code": "INF900",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO912",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO725"]
+		},
+		{
+			"code": "ISO931",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO700"]
+		},
+		{
+			"code": "E079",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "IDI046",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["IDI045"]
+		},
+		{
+			"code": "ISO937",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO931"]
+		},
+		{
+			"code": "ISO940",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO912"]
+		},
+		{
+			"code": "DER010",
+			"name": "",
+			"credits": 3,
+			"prerequisites": []
+		},
+		{
+			"code": "ISO936",
+			"name": "",
+			"credits": 4,
+			"prerequisites": ["ISO934"]
+		},
+		{
+			"code": "ISO945",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO937"]
+		},
+		{
+			"code": "ISO945",
+			"name": "",
+			"credits": 3,
+			"prerequisites": ["ISO937"]
+		}
+	]
+}
