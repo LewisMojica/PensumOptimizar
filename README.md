@@ -1,3 +1,5 @@
+Vibe coded readme:
+
 # Pensum Optimizer
 
 > **Minimize the number of semesters needed to complete your degree by finding the fastest path through course prerequisites and credit constraints.**
